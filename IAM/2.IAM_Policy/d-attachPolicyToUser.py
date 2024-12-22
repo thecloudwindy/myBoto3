@@ -10,12 +10,6 @@ def attachPolicyToUser(username, arn):
         )
         return response
     
-    except iam_client.exceptions.NoSuchEntityException:
-        print(f"User {username} doesn't exist")
-
-    except iam_client.PolicyNotAttachableException:
-        print(f"It is impossible to attach this Policy")
-
     except Exception as e:
         print("ERROR! =>", e)
 
