@@ -1,0 +1,11 @@
+1. Tạo VPC
+2. Tạo Subnets
+3. Tạo Route Tables
+4. Tạo và gán IGW cho VPC
+5. Bật tính năng VPC Flow Logs
+6. Liệt kê danh sách các VPCs
+7. Liệt kê tất cả các Active Flow Logs
+8. Liệt kê những Route Tables mà không được liên kết đến các Subnets
+9. Tạo VPC Endpoint
+10. Mô tả VPC Attributes
+11. Xóa VPC
